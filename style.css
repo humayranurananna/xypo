@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 #header{
     height: 100vh;
@@ -15,4 +16,66 @@
 .logo{
     margin-top: 30px;
     width: 100px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top:140px;
+}
+.header-text h1{
+    font-size: 34px;
+}
+.header-text p{
+    font-size: 15px;
+    color: rgb(58, 57, 57);
+    line-height: 19px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    background-color: #f67c92;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.common-btn{
+    padding: 18px 40px;
+    background-color: #f67c92;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: .8s;
+    border: 2px solid #f67c92;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.common-btn:hover{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+.line-1{
+    height: 12px;
+    width: 12px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line-2{
+    height: 1px;
+    width: 80px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line-3{
+    height: 1px;
+    width: 60px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line{
+    line-height: 8px;
 }
