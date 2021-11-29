@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <!-- my stylesheet  -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- header section starts -->
     <section id="header">
@@ -22,13 +24,15 @@
                 <span class="square"></span>
                 <span class="square"></span>
                 <span class="square"></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati saepe laudantium ad ratione odit deserunt recusandae voluptatum, repudiandae quibusdam rem! Facere voluptatibus doloribus laudantium quos.</p>
-            <button class="common-btn">Read More</button>
-            <div class="line">
-                <span class="line-1"></span><br>
-                <span class="line-2"></span><br>
-                <spam class="line-3"></span>
-            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati saepe laudantium ad ratione odit
+                    deserunt recusandae voluptatum, repudiandae quibusdam rem! Facere voluptatibus doloribus laudantium
+                    quos.</p>
+                <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <spam class="line-3"></span>
+                </div>
             </div>
         </div>
     </section>
@@ -46,19 +50,50 @@
     </nav>
     <img src="images/menu.png" alt="" id="menuBtn">
     <!-- menubar section ends  -->
+    <!-- about section starts  -->
+    <section class="about">
+        <div class="about-left-side">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-right-side">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptate voluptatibus? Provident
+                    ratione natus suscipit totam ullam voluptate, repudiandae voluptatem exercitationem. Quae beatae
+                    doloribus odio,
+                    maxime quas dolores possimus sit temporibus deserunt nostrum quos magnam aliquam magni impedit eaque
+                    nulla?</p><br><br>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <spam class="line-3"></span>
+                </div>
+                <h2>"Learning is not attained by chance, it must be sought for with ardor and attended with diligence"
+                </h2>
+                <h3>----Abigail Adams</h3>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section ends  -->
     <script>
         var sidenav = document.getElementById("sidenav");
         var menuBtn = document.getElementById("menuBtn");
         sidenav.style.right = "-250px";
-        menuBtn.onclick = function (){
-            if(sidenav.style.right == "-250px"){
+        menuBtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
                 sidenav.style.right = "0";
             }
-            else{
+            else {
                 sidenav.style.right = "-250px";
             }
         }
 
     </script>
 </body>
+
 </html>
