@@ -21,10 +21,10 @@
     max-width: 350px;
     margin-top:140px;
 }
-.header-text h1{
+.header-text h1, .course-text h1{
     font-size: 34px;
 }
-.header-text p,.about-text p,.feature-col p{
+.header-text p,.about-text p,.feature-col p, .course-text p{
     font-size: 15px;
     color: rgb(58, 57, 57);
     line-height: 19px;
@@ -38,7 +38,7 @@
 }
 
 .common-btn{
-    padding: 18px 40px;
+    padding: 15px 35px;
     background-color: #f67c92;
     outline: none;
     font-weight: bold;
@@ -48,15 +48,17 @@
     border: 2px solid #f67c92;
     margin-top: 20px;
     margin-bottom: 60px;
+    font-size: 15px;
 }
 .common-btn:hover{
-    padding: 18px 40px;
+    padding: 15px 35px;
     background: transparent;
     outline: none;
     border: 2px solid #f67c92;
     font-weight: bold;
     cursor: pointer;
     color: black;
+    font-size: 15px;
 }
 .line-1{
     height: 12px;
@@ -158,6 +160,9 @@ nav ul li a{
     flex-basis: 25%;
     text-align: center;
 }
+.feature-col img{
+    width: 100px;
+}
 .feature-col h4{
     margin-bottom: 8px;
     font-size: 20px;
@@ -172,10 +177,31 @@ nav ul li a{
 .feature-btn .line{
     text-align: right;
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 15px;
     margin-bottom: 30px;
 }
-
+.course{
+    padding: 100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-left-col{
+    flex-basis: 50%;
+}
+.course-text{
+    max-width: 350px;
+    margin-left: 100px;
+}
+.course-right-col{
+    flex-basis: 50%;
+}
+.course-right-col img{
+    width: 700px;
+    margin-right: 50px;
+}
 
 
 
