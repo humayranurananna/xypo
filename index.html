@@ -31,8 +31,34 @@
             </div>
             </div>
         </div>
-
     </section>
     <!-- header section ends  -->
+    <!-- menubar section starts  -->
+    <nav id="sidenav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" alt="" id="menuBtn">
+    <!-- menubar section ends  -->
+    <script>
+        var sidenav = document.getElementById("sidenav");
+        var menuBtn = document.getElementById("menuBtn");
+        sidenav.style.right = "-250px";
+        menuBtn.onclick = function (){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+            }
+            else{
+                sidenav.style.right = "-250px";
+            }
+        }
+
+    </script>
 </body>
 </html>
